@@ -1,5 +1,5 @@
 #%%
-%matplotlib inline
+
 import numpy as np
 import calfem.geometry as cfg
 import calfem.mesh as cfm
