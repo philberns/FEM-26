@@ -42,6 +42,7 @@ for el_nodes, el_marker in zip(edof, elementmarkers):
 
     # Elementstyvhetsmatris (fl_mat) och lastvektor (fl_rhs)
     # ep = [tjocklek], Q = källterm (W/m^3)
+    # elementkoordinaterna, tjocklek, materialmatris, källterm
     Ke, fe = cfc.flw2te(ex_el, ey_el, [t], D, Q)
 
     # Assemblera in i globala K och f

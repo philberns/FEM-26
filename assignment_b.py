@@ -8,7 +8,7 @@ import os
 import matplotlib
 import matplotlib.tri as mtri
 from datetime import datetime
-matplotlib.use("qtagg")
+matplotlib.use("Agg")
 
 # == Parameters for assignment b) ==
 rho = 1500.0         # kg/m^3 density
